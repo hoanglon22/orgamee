@@ -1,0 +1,246 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	width: 1800px;
+	margin: 0 auto;
+}
+header{
+	background: black;
+	width: 100%;
+	height: 100px;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.logo{
+	width: 5%;
+	height: 40px;
+	float: left;
+}
+.menu{
+	width: 40%;
+	height: 40px;
+	float: left;
+}
+.menu h3{
+	line-height: 90px;
+	text-align: center;
+	font-size: 32px;
+	color: aqua;
+}
+.menu u1{
+	list-style: none;
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+	line-height: 38px;
+	margin: 0 20px;
+}
+.menu a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+}
+.menu a:hover{
+	color: red;
+}
+.play{
+	background:red;
+	padding: 10px 30px;
+	text-decoration: none;
+	color:aliceblue;
+	float: right;
+}
+.play:hover{
+	background: black;
+	color: white;
+}
+main{
+	width: 100%;
+	height: auto;
+	background: gray;
+}
+.banner{
+	background:#131313; 
+	background-size: cover;
+	box-sizing: border-box;
+}
+.phays{
+	background:red;
+	padding: 30px 50px;
+	text-decoration: none;
+	color:aliceblue;
+	margin-left: 45%;
+}
+.phays:hover{
+	background: black;
+	color: white;
+}
+.personal{
+	width: 100%;
+	height: 500px;
+	background:#131313;
+	padding: 100px 0;
+}
+.video{
+	height: 500px;
+	background: grey;
+	float: left;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.info{
+	width: 50%;
+	height: 500px;
+	float: right;
+}
+.info h3{
+	font-size: 50px;
+	color: red
+}
+.info p{
+	font-size: 30px;
+	color: white
+}
+.the-bai{
+	width: 100%;
+	height: 900px;
+	background:#131313;
+}
+.khung-to{
+	width: 1800px;
+	height: 800px;
+	margin: 0 auto;
+}
+.khung-to h3{
+	font-size: 50px;
+	color: red;
+	margin-left: 35%;
+}
+.khung{
+	width: 1300px;
+	height: 800px;
+	margin: 0 auto;
+}
+.box{
+	width: 300px;
+	height: 450px;
+	float: left;
+	margin: 10px;
+	margin-top: 200px;
+}
+.sukien{
+	width: 100%;
+	height: 900px;
+	background: #131313;
+}
+.khung1{
+	width: 1800px;
+	height: 400px;
+	margin: 0 auto;
+}
+.khung1 h3{
+	font-size: 50px;
+	color: red;
+}
+.cc{
+	width: 45%;
+	height: 1px;
+}
+.cc p{
+	font-size: 30px;
+	color: white
+}
+.ccc{
+	width: 45%;
+	height: 400px;
+	background: red;
+	float: right;
+}
+footer{
+	width: 100%;
+	height: 500px;
+	background: black;
+}
+.thongtin{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
+.khung2{
+	width: 1800px;
+	height: 100px;
+	margin-left: 36%;
+}
+.khung2 li{
+	display: inline-block;
+	line-height: 38px;
+	margin: 0 20px;
+}
+.khung2 a{
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+}
+.khung2 a:hover{
+	color: red;
+}
+.thongtin2{
+	width: 100%;
+	height: 100px;
+	background: black;
+}
+.khung3{
+	width: 100px;
+	height: 100px;
+	margin-left: 47%;
+}
+.thongtin3{
+	width: 100%;
+	height: 100PX;
+	background: black;
+}
+.khung4{
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+}
+.khung4 p{
+	color:white;
+}
+.khung5{
+	width: 400px;
+	height: 50px;
+	margin: 0 auto;
+}
+.khung5 p{
+	color:white;
+}
+.khung6{
+	width: 450px;
+	height: 50px;
+	margin: 0 auto;
+}
+.khung6 li{
+	display: inline-block;
+	line-height: 38px;
+}
+.khung6 a{
+	color:white;
+}
+.khung6 a:hover{
+	color: red;
+}
+.khung7{
+	width: 225px;
+	height: 100px;
+	margin: 0 auto;
+}
